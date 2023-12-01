@@ -10,6 +10,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   background: hsl(0, 0%, 98%);
+  overflow: hidden;
 }
 
 main, header {
@@ -52,7 +53,7 @@ main p:nth-of-type(1), header p:nth-of-type(1) {
     margin: 20px auto;
     padding: 20px;
     text-align: left;
-    box-shadow: 0 4px 10px hsl(0, 0%, 98%);
+    box-shadow: 0 1px 10px hsl(229, 6%, 66%);
     position: relative;
   }
   .card:nth-of-type(1) {
@@ -71,5 +72,30 @@ main p:nth-of-type(1), header p:nth-of-type(1) {
     position: absolute;
     margin: 10px 0px;
     right: 5%;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  main {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .card {
+    width: 40vh;
+    align-items: center;
+  }
+  .card:nth-of-type(1) {
+    margin-top: 40%;
+    margin-left: 120px;
+  }
+  .card:nth-of-type(3) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -120px;
+  }
+  .card:nth-of-type(4) {
+    margin-top: 40%;
+    margin-right: 120px;
   }
 }/*# sourceMappingURL=style.css.map */

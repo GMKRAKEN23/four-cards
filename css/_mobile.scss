@@ -3,6 +3,10 @@ $primary-cyan: hsl(180, 62%, 55%);
 $primary-orange: hsl(34, 97%, 64%);
 $primary-blue: hsl(212, 86%, 64%);
 
+$neutral-dark-blue: hsl(234, 12%, 34%);
+$neutral-gray-blue: hsl(229, 6%, 66%);
+$neutral-light-blue: hsl(0, 0%, 98%);
+
 body{
     display: flex;
     justify-content: center;
@@ -20,7 +24,7 @@ body{
     margin: 20px auto;
     padding: 20px;
     text-align: left;
-    box-shadow: 0 4px 10px $neutral-light-blue;
+    box-shadow: 0 1px 10px $neutral-gray-blue;
     position: relative;
     &:nth-of-type(1){
         border-top: solid 3px $primary-cyan;

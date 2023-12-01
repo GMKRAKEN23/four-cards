@@ -23,6 +23,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: $font-size-body;
     background: $neutral-light-blue;
+    overflow: hidden;
 }
 
 main, header{
@@ -51,3 +52,7 @@ main, header{
 @media only screen and (min-width: 375px) {
     @import 'mobile';
 } 
+
+@media only screen and (min-width: 1440px){
+    @import 'deskop';
+}

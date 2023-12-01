@@ -1,0 +1,23 @@
+$primary-color: hsl(0, 78%, 62%), hsl(180, 62%, 55%), hsl(34, 97%, 64%), hsl(212, 86%, 64%);
+$neutral-color: hsl(234, 12%, 34%), hsl(229, 6%, 66%), hsl(0, 0%, 98%);
+$font-size-body: 15px;
+$font-size-title : 2rem, 1.5rem, 
+$font-weight: 200, 400, 900; //font-weight: nth($font-weight, 3);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: $font-size;
+}
+
+main{
+    width: 1440px;
+    min-height: 100vh;
+}
